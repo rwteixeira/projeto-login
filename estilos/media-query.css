@@ -9,11 +9,12 @@
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
+    body { /* CONFIGURAÇÃO PARA TABLET */
         background-image: linear-gradient(to bottom, #2c4e82, #49a09d);
     }
     section#login {
         width: 80vw;
+        height: 300px;
     }
     section#login > div#imagem {
         float: left;
@@ -31,12 +32,13 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* CONFIGURAÇÃO PARA DESKTOP */
     body {
         background-image: linear-gradient(to bottom, #2c4e82, #49a09d);
     }
     section#login {
         width: 950px;
+        height: 380px;
     }
     section#login > div#imagem {
         float: right;
@@ -55,7 +57,9 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
+
     label {
     font-size: 1.2em;
     }
