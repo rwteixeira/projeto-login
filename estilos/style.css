@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #2c4e82 url(../imagens/downtown.jpg);
+    background: #2c4e82 url(../imagens/downtown450.jpg);
     background-size: cover;
     background-position: center bottom;
     height: 200px;
